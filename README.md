@@ -1,126 +1,70 @@
-# HTML
-- HypertText
-    - Textos puros, livros, revistas, jornais;
-    - Links: acessar outros documentos;
-    - Imagens, vídeos, áudios;
-- Markup
-    - Marcação
-    - Tags: <a> Link </a>
-    - Atributos: <a href="https://rocketseat.com.br">
-    - Globais: id, class, ...
-- Language
-    - Linguagem
-    - Sintaxe: maneira de escrever
+# 🧠 NLW Agents - Assistente de Meta
 
-# HTTP
-- HyperText
-- Transfer
-    - Transferência
-- Protocol
-    - Protocolo
-    - Conjunto de regras
-- Methods HTTP (verbos): Get, Post, Patch/Put, Delete
-- Headers (cabeçalhos): Instruções/Informações extras para cada chamada
 
-# URL
-- Uniform
-    - Uniforme
-- Resource
-    - Recurso
-- Locator
-    - Localizador
-Encontrar um recurso (html, css, js, pdf, jpg, mp4, mpr, ...)
-Endereço
+Projeto desenvolvido durante o **NLW da Rocketseat**, utilizando **HTML, CSS e JavaScript**, com foco em integração de IA para dicas e estratégias de jogos competitivos (como LoL, Valorant, CS:GO e outros).
 
-# IP
-- Internet
-  - Rede mundial de computadores
-- Protocol
-  - Conjunto de regras
-Endereço do computador
-rocketseat.com.br (domínio)
-123.32.1.23 (ip)
+## 🕹 Sobre o projeto
 
-# DNS
-- Domain
-  - Domínio
-- Name
-  - Nome
-- Server
-  - Servidor
+O **Assistente de Meta** é uma aplicação que usa a API do **Gemini AI** para responder dúvidas sobre **estratégias, builds e metas atualizadas** de jogos. O usuário informa sua chave de API, escolhe o jogo e faz sua pergunta — o assistente responde com base em conhecimento recente, incluindo patch atual e estilo de jogo.
 
-# CSS
+### 📸 Preview
 
-- Cascading
-  - Cascata
-  - Regras das escritas
-  - Hierarquia
-  - Especificidade
-- Style
-  - Estilo
-- Sheet
-  - Folha
+![alt text](image-1.png)
 
-De um arquivo que terá na sua sintaxe, declarações, propriedades e valores.
-A partir disso, o HTML é impactado visualmente.
 
-- declaração
-- seletor
-- propriedade e valor
+> Imagem do assistente com design moderno, tema escuro e foco em usabilidade.
 
-# JS
-- Linguagem de programação
-- Browsers
-- Input -> Process -> Output
-- Variáveis
-- Function
-  - Agrupamento e reuso de código
-  - Sequencia lógica
-  - Saída
-- Gemini (IA): esperar uma resposta
-- Mexer no meu navegador
-- Estrutura de dados
-- Estrutura de decisão
-- Algoritmo: sequencia de passos lógica, de maneira ordenada, a fim de chegar a alguma conclusão (limitada)
-- Lógica (Pensamento computacional)
-  - Abstração
-  - Decomposição
-  - Algoritmo
-  - Reconhecimento de padrão
-- Tipos de dados
-  - Number (números)
-  - String (textos) (" ",  ' ',  ` `)
-  - Boolean: true | false
-  - Objects
-  - ...
+## ⚙️ Funcionalidades
 
-# DOM
-- Document
-- Object
-- Model
+- ✅ Integração com API Gemini (Google)
+- ✅ Reconhecimento do jogo selecionado
+- ✅ Resposta com markdown convertida para HTML
+- ✅ Validação de campos e feedback de carregamento
+- ✅ Estilo neon moderno com animações suaves
 
-# API
-- Application
-- Programming
-- Interface
-- JSON: JavaScript Object Notation
+## 🚀 Tecnologias utilizadas
 
-# CDN
-- Content
-- Delivery
-- Network
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [Showdown.js](https://github.com/showdownjs/showdown) (para converter markdown)
+- API Gemini (Google AI)
 
-# LLM
-- Large
-- Language
-- Model
-- Gemini, OpenAI (chatGPT), Anthropic (Claude) ...
+## 🛠 Como usar
 
-# Agentes AI
-- Tools (ferramentas): permitem uso de código, ou apps, ou qualquer informação extra.
-- Melhor contexto
+1. Clone o repositório:
 
-# Engenharia de prompt
-- One shot: uma única pergunta sem muito contexto
-- Few shot: é apresentado exemplos do que se espera
-- Chain of Thought: Cadeia de pensamento para a IA responder gradativamente conforme a instrução.
+```bash
+git clone https://github.com/seu-usuario/nlw-agents.git
+cd nlw-agents
+```
+
+2. Abra o arquivo `index.html` em seu navegador ou use uma extensão como **Live Server** no VSCode.
+
+3. Insira sua **API KEY do Gemini** no campo correspondente  
+👉 Você pode gerar uma em: https://aistudio.google.com/app/apikey
+
+4. Escolha o jogo e faça sua pergunta!
+
+## 📂 Estrutura de Arquivos
+
+```
+nlw-agents/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── logo.png
+│   └── bg.jpg
+```
+
+## 📌 Observações
+
+- O projeto ainda pode ser expandido para suportar mais jogos.
+- Respostas são limitadas a 500 caracteres para objetividade.
+- O modelo Gemini é instruído a realizar pesquisas com base na data atual (se disponível).
+
+## ✨ Créditos
+
+Projeto inspirado e orientado pelas aulas do **NLW da Rocketseat**.  
+Desenvolvido com 💜 por **Ricardo Leão**.
