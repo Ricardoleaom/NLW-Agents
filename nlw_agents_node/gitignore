@@ -1,0 +1,24 @@
+
+# Node.js
+node_modules/
+
+# Ambiente
+.env
+
+# Lockfiles
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build
+dist/
+
+# Editor
+.vscode/
+.DS_Store
+
+# Logs
+*.log
+
+# Sistema operacional
+Thumbs.db
