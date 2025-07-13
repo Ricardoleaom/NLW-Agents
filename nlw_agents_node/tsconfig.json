@@ -1,5 +1,5 @@
 {
- "$schema": "https://json.schemastore.org/tsconfig",
+  "$schema": "https://json.schemastore.org/tsconfig",
   "_version": "22.0.0",
   "compilerOptions": {
     "lib": [
@@ -15,9 +15,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "node16"
-  },
-  "include": [
-    "nlw_agents_node/src/src/**/*"
-  ]
+    "moduleResolution": "node16",
+    "strictNullChecks": true
+  }
 }
