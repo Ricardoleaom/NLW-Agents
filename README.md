@@ -9,7 +9,7 @@ O **Assistente de Meta** é uma aplicação que usa a API do **Gemini AI** para 
 
 ### 📸 Preview
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 
 > Imagem do assistente com design moderno, tema escuro e foco em usabilidade.
